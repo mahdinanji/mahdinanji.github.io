@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ce073e;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.logo {
+    height: 90%;
+    width: auto;
+} 
+
+.title {
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 3em;
+    color: #ce073e;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.description {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.playerCard a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;   
+}
+
+.playerCard img {
+    width: 200px;
+    height: auto;
+    background-color: #ce073e ;  
+    border-radius: 10px 10px 0px 0px;
+}
+
+.playerCard {
+    border: 3px solid;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-color: #ce073e;
+    
+}
+
+.cards {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.player {
+    text-align: center;
+}
+.player h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ce073e
+}
+
+.playerInfo {
+
+}
+
+/* Players Page */
+
